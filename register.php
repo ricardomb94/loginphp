@@ -23,14 +23,17 @@
         <div class="uk-margin">
           <label class="uk-form-label" for="form-stacked-text">Email</label>
           <div class="uk-form-controls">
-            <input class="uk-input" id="form-stacked-text" type="text" required="required" placeholder="example@email.com">
+            <input class="uk-input" id="form-stacked-text-regist" type="email" required="required" placeholder="example@email.com">
           </div>
         </div>
         <div class="uk-margin">
           <label class="uk-form-label" for="form-stacked-text">Password</label>
           <div class="uk-form-controls">
-            <input class="uk-input" id="form-stacked-text" type="text" required="required" placeholder="Your Password">
+            <input class="uk-input" id="form-stacked-text" type="password" required="required" placeholder="Your Password">
           </div>
+        </div>
+        <div class="uk-margin uk-alert uk-alert-danger js-error" style='display:none'>
+          test
         </div>
         <div class="uk-margin">
           <button class="uk-button uk-button-default" type="submit">
@@ -39,6 +42,9 @@
         </div>
       </form>
     </div>
+    <p>
+      Still have an account? please <a href="login.php">Login</a>
+    </p>
     <hr class="uk-grid-divider">
     <div/>
 

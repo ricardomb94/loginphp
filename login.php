@@ -40,6 +40,9 @@
         </div>
       </form>
     </div>
+    <p>
+      You don't have an account ? <a href="register.php">Register</a>
+    </p>
     <hr class="uk-grid-divider">
     <div/>
 
